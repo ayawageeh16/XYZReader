@@ -19,7 +19,7 @@
             android:paddingTop="125dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingBottom="28dp"
+            android:paddingBottom="27dp"
             android:scrollbarStyle="outsideOverlay"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             />
