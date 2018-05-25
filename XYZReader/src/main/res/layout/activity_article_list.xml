@@ -29,14 +29,18 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:fitsSystemWindows="true"
-        android:elevation="8dp"
-        android:background="@color/theme_primary"
+        android:elevation="10dp"
+        android:backgroundTint="@color/theme_primary"
+        android:background="#fff"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         >
       <android.support.design.widget.CollapsingToolbarLayout
           android:id="@+id/colltool"
           android:layout_width="match_parent"
           android:layout_height="match_parent"
+          android:backgroundTint="@color/theme_primary"
+          android:background="#fff"
+          android:elevation="10dp"
           app:contentScrim="@color/theme_primary"
           android:fitsSystemWindows="true"
           app:layout_scrollFlags="scroll|exitUntilCollapsed">
